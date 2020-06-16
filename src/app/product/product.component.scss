@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 1.0);
+    transition: 0.3s;
+    width: calc(100% / 4);
+    max-width: 20rem;
+    margin: 1rem;
+    .container {
+        padding: 2px 16px;
+    }
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 16rem;
+}
+
